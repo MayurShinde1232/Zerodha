@@ -22,7 +22,7 @@ public class Test_2 {
 		Thread.sleep(2000);
 		driver.navigate().refresh();
 		Thread.sleep(3000);
-		driver.close();
+		//driver.close();
 		
 		
 		
