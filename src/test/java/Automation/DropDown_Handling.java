@@ -26,12 +26,18 @@ public class DropDown_Handling {
 			
 			//If dropdowns are dynamic then use select by  visible text method.
 			
-			/*sel.getOptions();// It resturns all list of dropdown elements.
-			List<WebElement> list= sel.getOptions();
+			//sel.getOptions();// It resturns all list of dropdown elements.
+			/*List<WebElement> list= sel.getOptions();
 			
-			System.out.println(list.size()); */
+			System.out.println(list.size());
 			
+			// Print all dropdown options
 			
+			for(WebElement ele: list )
+			{
+				System.out.println(ele);
+			}
+			*/
 			
 
 	}
