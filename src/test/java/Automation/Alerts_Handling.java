@@ -22,6 +22,7 @@ public class Alerts_Handling {
 		
 		String text= alt.getText();
 		System.out.println(text);
+		// If there is no alerts on page then you will be getting NoAlertsPresentException.
 		
 
 	}
